@@ -7,11 +7,11 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import compressDist, { CompressOptions } from 'rollup-plugin-compress-dist';
 import proxy from './config/setuproxy'
 
-const compressOpts: CompressOptions<'tar'> = {
-   type: 'tar',
-   archiverName: 'dist.tar',
-   sourceName: 'dist',
- };
+// const compressOpts: CompressOptions<'tgz'> = {
+//   type: 'tgz',
+//   archiverName: 'dist.tar.gz',
+//   sourceName: 'dist',
+//  };
 
 
 // https://vitejs.dev/config/
